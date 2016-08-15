@@ -8,6 +8,7 @@
 
 #import "LPViewController.h"
 #import "lib1/LPlib1.h"
+#import "lib2/LPlib2.h"
 
 @interface LPViewController ()
 
@@ -20,6 +21,7 @@
     [super viewDidLoad];
 
     [LPlib1 log];
+    [LPlib2 log];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

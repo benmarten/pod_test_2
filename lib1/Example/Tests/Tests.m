@@ -8,6 +8,7 @@
 
 @import XCTest;
 #import "lib1/LPlib1.h"
+#import "lib2/LPlib2.h"
 
 @interface Tests : XCTestCase
 
@@ -19,6 +20,7 @@
 {
     [super setUp];
     [LPlib1 log];
+    [LPlib2 log];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
