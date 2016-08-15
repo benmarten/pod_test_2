@@ -10,4 +10,8 @@
 
 @implementation LPlib2
 
++(void)log {
+    NSLog(@"lib1");
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface LPlib2 : NSObject
 
++(void)log;
+
 @end
