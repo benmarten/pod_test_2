@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0013A1AD51A9D6B3D37F6406BB81D56A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8791BCBBB371D4DE4E30018F85FAB8 /* ReplaceMe.m */; };
-		0FEF19728C4F0122B5AC21302DDA4088 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDF9AA7EAB0FEAC8043367DEEFACB8 /* ReplaceMe.m */; };
 		1C806F4563E5AE00812301372FC8BFBB /* Pods-lib1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF94A7FB92ED914DEDDE55BD30212570 /* Pods-lib1_Tests-dummy.m */; };
 		331FE1BAD73E3C325C587B8586A75B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3748E6EB4ECC7C190EE5A3E3A184224A /* Pods-lib1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22374498DB53A2CBB6132CE1CE02C458 /* Pods-lib1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +17,8 @@
 		57ED8D05F0FA461D40554AD1B67D5BF4 /* Pods-lib1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C7E8AF04A8BA926D5569CABBE92354 /* Pods-lib1_Example-dummy.m */; };
 		6FEF9208BC0DFDF5E43C5E789E4551B1 /* lib2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25ED2ADB8971D6165C13123C372F02A6 /* lib2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C8E322FA5C755C5044D012137B620A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B50006E41D625D66009505E0 /* LPlib1.h in Headers */ = {isa = PBXBuildFile; fileRef = B50006E21D625D66009505E0 /* LPlib1.h */; };
+		B50006E51D625D66009505E0 /* LPlib1.m in Sources */ = {isa = PBXBuildFile; fileRef = B50006E31D625D66009505E0 /* LPlib1.m */; };
 		BE6114010B12F528111D0C7C1A63D2BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		FEA22A7B077C67894BDBAFE7145D76DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -42,9 +42,7 @@
 
 /* Begin PBXFileReference section */
 		0685BADAE73A13ABBE4BB7E2592373FF /* Pods-lib1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lib1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		09DDF9AA7EAB0FEAC8043367DEEFACB8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		16C77D5DAC4003C2B35FC448AF562148 /* Pods-lib1_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lib1_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1B8791BCBBB371D4DE4E30018F85FAB8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		22374498DB53A2CBB6132CE1CE02C458 /* Pods-lib1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lib1_Example-umbrella.h"; sourceTree = "<group>"; };
 		25ED2ADB8971D6165C13123C372F02A6 /* lib2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lib2-umbrella.h"; sourceTree = "<group>"; };
 		2DE6D9438830A5F83A16EBEB16132D72 /* Pods-lib1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lib1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		AC935FC934EA23954BDC4D1A10D90D27 /* Pods-lib1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lib1_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AF94A7FB92ED914DEDDE55BD30212570 /* Pods-lib1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lib1_Tests-dummy.m"; sourceTree = "<group>"; };
 		B2D4CD429DCEA6F9B46AAF01070DED2F /* Pods-lib1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lib1_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B50006E21D625D66009505E0 /* LPlib1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPlib1.h; sourceTree = "<group>"; };
+		B50006E31D625D66009505E0 /* LPlib1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPlib1.m; sourceTree = "<group>"; };
 		B806F7DABA0442B12C545578545E69DA /* Pods_lib1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lib1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B952142F7C8F43236382D47242B3BDF6 /* Pods-lib1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lib1_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BCB9FDD94B7EF1524CBCE63E4683BC2B /* lib1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lib1-prefix.pch"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 		562FA27E505531FF50561C42E2F095B6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				09DDF9AA7EAB0FEAC8043367DEEFACB8 /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -247,7 +246,8 @@
 		A70D85F2D129D958C6287ACAEC122446 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1B8791BCBBB371D4DE4E30018F85FAB8 /* ReplaceMe.m */,
+				B50006E21D625D66009505E0 /* LPlib1.h */,
+				B50006E31D625D66009505E0 /* LPlib1.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -306,6 +306,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50006E41D625D66009505E0 /* LPlib1.h in Headers */,
 				475D5F535F45D62628E233307B509DDC /* lib1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A4C5128EDED05A8B2C9452A78EBC0E /* lib1-dummy.m in Sources */,
-				0013A1AD51A9D6B3D37F6406BB81D56A /* ReplaceMe.m in Sources */,
+				B50006E51D625D66009505E0 /* LPlib1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +460,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C24853861008953081620BB724A83B /* lib2-dummy.m in Sources */,
-				0FEF19728C4F0122B5AC21302DDA4088 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

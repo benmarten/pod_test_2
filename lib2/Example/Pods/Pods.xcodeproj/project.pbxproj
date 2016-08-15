@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FEF19728C4F0122B5AC21302DDA4088 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D87A1394ED68443CDA1598C88DA642 /* ReplaceMe.m */; };
 		32E0A33B6211663A9B9189E78C40420A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		52C24853861008953081620BB724A83B /* lib2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6F15A52B1E6457AB0673B91B908159 /* lib2-dummy.m */; };
 		5DCE76C88DC0CB4CB8614B6E7D05FB50 /* Pods-lib2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 508581D35076DFB39A75CEE633B24B0D /* Pods-lib2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +15,8 @@
 		94B91811E18A995964D69BF41FB22AB1 /* Pods-lib2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 690DD6E792FB72AD9DB78358E87C6C33 /* Pods-lib2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A361F90C85CA6722E7DA9F074DAF6F5F /* Pods-lib2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536A702E15281B471998A953E2A0C377 /* Pods-lib2_Example-dummy.m */; };
 		B3C860A6946663BB4FB93B7A1BF83851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B50006E81D625D8A009505E0 /* LPlib2.h in Headers */ = {isa = PBXBuildFile; fileRef = B50006E61D625D8A009505E0 /* LPlib2.h */; };
+		B50006E91D625D8A009505E0 /* LPlib2.m in Sources */ = {isa = PBXBuildFile; fileRef = B50006E71D625D8A009505E0 /* LPlib2.m */; };
 		BE6114010B12F528111D0C7C1A63D2BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +57,9 @@
 		A709AC74C13D9B81BB6DAA5A1941677B /* lib2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A942B91585428A9566EAB104ED6094AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6F15A52B1E6457AB0673B91B908159 /* lib2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lib2-dummy.m"; sourceTree = "<group>"; };
+		B50006E61D625D8A009505E0 /* LPlib2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPlib2.h; sourceTree = "<group>"; };
+		B50006E71D625D8A009505E0 /* LPlib2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPlib2.m; sourceTree = "<group>"; };
 		BECCD5C013B0ADCD6B89A570AB0C49CA /* lib2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = lib2.modulemap; sourceTree = "<group>"; };
-		C5D87A1394ED68443CDA1598C88DA642 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C80D3B894A82445ADDBA25F3C0DEF2A8 /* Pods-lib2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-lib2_Example.modulemap"; sourceTree = "<group>"; };
 		CA3E45DE9D19C3FCFD2A90CB312C7D19 /* Pods-lib2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lib2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -134,7 +136,8 @@
 		57E01D403A992DEF342988E5B04909F3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C5D87A1394ED68443CDA1598C88DA642 /* ReplaceMe.m */,
+				B50006E61D625D8A009505E0 /* LPlib2.h */,
+				B50006E71D625D8A009505E0 /* LPlib2.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FEF9208BC0DFDF5E43C5E789E4551B1 /* lib2-umbrella.h in Headers */,
+				B50006E81D625D8A009505E0 /* LPlib2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50006E91D625D8A009505E0 /* LPlib2.m in Sources */,
 				52C24853861008953081620BB724A83B /* lib2-dummy.m in Sources */,
-				0FEF19728C4F0122B5AC21302DDA4088 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
