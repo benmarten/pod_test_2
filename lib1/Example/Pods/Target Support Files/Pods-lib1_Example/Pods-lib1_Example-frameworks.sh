@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/lib1/lib1.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/lib2/lib2.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/lib1/lib1.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/lib2/lib2.framework"
 fi

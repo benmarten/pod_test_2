@@ -1,16 +1,21 @@
 PODS:
   - lib1 (0.1.0)
+  - lib2 (0.1.0)
 
 DEPENDENCIES:
   - lib1 (from `../`)
+  - lib2 (from `../../lib2/`)
 
 EXTERNAL SOURCES:
   lib1:
     :path: "../"
+  lib2:
+    :path: "../../lib2/"
 
 SPEC CHECKSUMS:
   lib1: 0c53da07ab5a13fc1a427bf18c2f3d17860d00d0
+  lib2: 27982b3693bb3bcdb1ea56583c97aee9d6e9d7bf
 
-PODFILE CHECKSUM: 802aa277b01023d83139cdc0626ec1e1845b0615
+PODFILE CHECKSUM: 31371d2f4cba93349e6e6467c347cf5e41e249fc
 
 COCOAPODS: 1.0.1
