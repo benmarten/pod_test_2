@@ -7,6 +7,7 @@
 //
 
 #import "LPViewController.h"
+#import "lib1/LPlib1.h"
 
 @interface LPViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    [LPlib1 log];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
