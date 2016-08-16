@@ -1,5 +1,6 @@
 PODS:
-  - lib1 (0.1.0)
+  - lib1 (0.1.0):
+    - lib2
   - lib2 (0.1.0)
 
 DEPENDENCIES:
@@ -13,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../../lib2/"
 
 SPEC CHECKSUMS:
-  lib1: 0c53da07ab5a13fc1a427bf18c2f3d17860d00d0
+  lib1: 7a7dcba344139bc4b39cb5f4579bf36ef4c54c78
   lib2: 27982b3693bb3bcdb1ea56583c97aee9d6e9d7bf
 
 PODFILE CHECKSUM: 31371d2f4cba93349e6e6467c347cf5e41e249fc
